@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu | Dalat Saffron</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1E3A25;
+      color: white;
+    }
+
+    .footer-dev-link {
+      color: #DAA520;
+      text-decoration: none;
+    }
+
+    .menu-container {
+      padding: 80px 20px 60px;
+      background-color: #1E3A25;
+      color: white;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .menu-section {
+      margin-bottom: 40px;
+    }
+
+    .menu-title {
+      font-size: 28px;
+      color: #DAA520;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #DAA520;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #DAA520;
+    }
+
+    .menu-item-name {
+      font-size: 18px;
+    }
+
+    .menu-item-price {
+      font-size: 18px;
+      color: #DAA520;
+      font-weight: bold;
+    }
+
+    /* Floating Buttons */
+    .floating-buttons {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 9999;
+    }
+
+    .floating-btn {
+      background-color: #DAA520;
+      color: #1E3A25;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      transition: background-color 0.3s ease;
+    }
+
+    .floating-btn:hover {
+      background-color: #c89e1c;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Home & Order Buttons -->
+  <div class="floating-buttons">
+    <a href="index.html" class="floating-btn">🏠 Home</a>
+    <a href="https://wa.me/971508209155" class="floating-btn order" target="_blank" rel="noopener">📲 Order Now</a>
+  </div>
+
+  <div class="menu-container">
+<!-- FRESH JUICES SECTION -->
+<section class="menu-section" id="fresh-juices">
+  <h2 class="menu-title">FRESH JUICES</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><span>AVOCADO</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>SWEET MELON</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>LEMON MINT</span><span>AED 6/10</span></div>
+    <div class="menu-item"><span>BANANA</span><span>AED 5/8</span></div>
+    <div class="menu-item"><span>WATERMELON</span><span>AED 8/11</span></div>
+    <div class="menu-item"><span>GUAVA</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>TENDER COCONUT</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>LEMON</span><span>AED 5/8</span></div>
+    <div class="menu-item"><span>PAPAYA</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>PINEAPPLE</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>GRAPE</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>CARROT</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>ORANGE</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>SUGAR CANE</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>STRAWBERRY</span><span>AED 10/14</span></div>
+    <div class="menu-item"><span>APPLE</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>CHICKOO</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>POMEGRANATE</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>KIWI</span><span>AED 10/13</span></div>
+    <div class="menu-item"><span>MANGO</span><span>AED 10/13</span></div>
+  </div>
+</section>
+<!-- HEALTHY JUICES SECTION -->
+<section class="menu-section" id="healthy-juices">
+  <h2 class="menu-title">HEALTHY JUICES</h2>
+  <div class="menu-grid">
+    <div class="menu-item full">
+      <h3>Power Booster <span>AED 15</span></h3>
+      <p><strong>Ingredients:</strong> Carrot, Apple, Orange, Ginger</p>
+      <p>This combination is particularly energizing and contains high-level antioxidants to combat ageing free radicals. Very refreshing.</p>
+    </div>
+
+    <div class="menu-item full">
+      <h3>By Five <span>AED 15</span></h3>
+      <p><strong>Ingredients:</strong> Pineapple, Strawberry, Mango, Apple, Kiwi</p>
+      <p>Ideally, your 5 portions of fruit per day should come from different fruits. Kiwi has a soothing effect on heartburn. Great choice!</p>
+    </div>
+
+    <div class="menu-item full">
+      <h3>Purple Pine <span>AED 15</span></h3>
+      <p><strong>Ingredients:</strong> Pineapple, Black Grape</p>
+      <p>High in iron. Pineapple helps digestion and inflammation. Grape juice is good for heart health.</p>
+    </div>
+
+    <div class="menu-item full">
+      <h3>Vitamin Load <span>AED 15</span></h3>
+      <p><strong>Ingredients:</strong> Pineapple, Mango, Grape, Banana, Orange</p>
+      <p>Increases cell activity and strengthens body immunity. A better alternative to supplements and vitamin capsules.</p>
+    </div>
+
+    <div class="menu-item full">
+      <h3>Weight Loss <span>AED 15</span></h3>
+      <p><strong>Ingredients:</strong> Strawberry, Orange, Apple</p>
+      <p>Strawberries reduce cravings for sweets. Tasty and full of weight-loss and health benefits.</p>
+    </div>
+
+    <div class="menu-item full">
+      <h3>Iron Booster <span>AED 15</span></h3>
+      <p><strong>Ingredients:</strong> Beetroot, Carrot, Apple, Watercress (Jarjeer)</p>
+      <p>Boosts oxygen in your blood. Helps you feel and look better. A great wholesome drink.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MILKSHAKES & LASSI SECTION -->
+<section class="menu-section">
+  <h2 class="menu-title">MILKSHAKES & LASSI</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><span>Galaxy</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Lotus</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Oreo</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Kit Kat</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Snickers</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Pistachio</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Ruman Lassi</span><span>AED 8/12</span></div>
+    <div class="menu-item"><span>Mango Lassi</span><span>AED 7/10</span></div>
+    <div class="menu-item"><span>Tender Coconut Coconut Shake</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Cold Coffee</span><span>AED 15.00</span></div>
+  </div>
+</section>
+<!-- MOJITOS SECTION -->
+<section class="menu-section">
+  <h2 class="menu-title">MOJITOS</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><span>Strawberry</span><span>AED 12/15</span></div>
+    <div class="menu-item"><span>Passion Fruit</span><span>AED 12/15</span></div>
+    <div class="menu-item"><span>Blueberry</span><span>AED 12/15</span></div>
+    <div class="menu-item"><span>Watermelon</span><span>AED 12/15</span></div>
+    <div class="menu-item"><span>Green Apple</span><span>AED 12/15</span></div>
+    <div class="menu-item"><span>Lemon Mint</span><span>AED 12/15</span></div>
+  </div>
+</section>
+<!-- DESSERTS SPECIAL -->
+<section class="menu-section">
+  <h2 class="menu-title">DESSERTS SPECIAL</h2>
+  <div class="menu-grid">
+
+    <!-- Fruit Bricks -->
+    <div class="menu-item"><span>Watermelon</span><span>AED 10.00</span></div>
+    <div class="menu-item"><span>Pineapple</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Mango</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Mix Fruit</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Kiwi</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Pomegranate</span><span>AED 15.00</span></div>
+
+    <!-- Falooda Street -->
+    <div class="menu-item"><span>Saffron Falooda</span><span>AED 12/15</span></div>
+    <div class="menu-item"><span>Mango Falooda</span><span>AED 10/14</span></div>
+    <div class="menu-item"><span>Strawberry Falooda</span><span>AED 10/14</span></div>
+
+    <!-- Other Desserts -->
+    <div class="menu-item"><span>Choconut Sundae Glory</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>Mix Ice Cream (Strawberry, Chocolate, Vanilla, Pista)</span><span>AED 10/15</span></div>
+    <div class="menu-item"><span>Fruit Plate</span><span>AED 15/25</span></div>
+    <div class="menu-item"><span>Kunafa (Cream / Cheese / Nutella)</span><span>AED 13.00</span></div>
+    <div class="menu-item"><span>Iced Tea</span><span>AED 10/12</span></div>
+    <div class="menu-item"><span>Peach Tea</span><span>AED 10/12</span></div>
+
+  </div>
+</section>
+<!-- GRILL SPECIAL -->
+<section class="menu-section">
+  <h2 class="menu-title">GRILL SPECIAL</h2>
+  <div class="menu-grid">
+
+    <div class="menu-item"><span>Mix Grill (Small / Medium)</span><span>AED 45 / AED 75</span></div>
+    <div class="menu-item"><span>Green Chilli Chicken Charcoal (Quarter / Half / Full)</span><span>AED 15 / 25 / 45</span></div>
+    <div class="menu-item"><span>Pepper Chicken Charcoal (Quarter / Half / Full)</span><span>AED 15 / 25 / 45</span></div>
+    <div class="menu-item"><span>Peri Peri Chicken Charcoal (Quarter / Half / Full)</span><span>AED 15 / 25 / 44</span></div>
+    <div class="menu-item"><span>Mix Chicken Charcoal (Half / Full)</span><span>AED 25 / 45</span></div>
+    <div class="menu-item"><span>Normal Charcoal (Quarter / Half / Full)</span><span>AED 15 / 25 / 45</span></div>
+    <div class="menu-item"><span>Spicy Charcoal (Quarter / Half / Full)</span><span>AED 15 / 25 / 45</span></div>
+
+    <div class="menu-item"><span>Chicken Tikka</span><span>AED 23.00</span></div>
+    <div class="menu-item"><span>Mutton Tikka</span><span>AED 28.00</span></div>
+    <div class="menu-item"><span>Chicken Kabab</span><span>AED 23.00</span></div>
+    <div class="menu-item"><span>Mutton Kabab</span><span>AED 28.00</span></div>
+    <div class="menu-item"><span>Chicken Wings</span><span>AED 23.00</span></div>
+    <div class="menu-item"><span>Lamb Chops (3PCS)</span><span>AED 30.00</span></div>
+
+  </div>
+</section>
+<!-- SHAWARMA -->
+<section class="menu-section">
+  <h2 class="menu-title">SHAWARMA</h2>
+  <div class="menu-grid">
+
+    <div class="menu-item"><span>Arabic Shawarma</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>Shawarma Plate</span><span>AED 20.00</span></div>
+    <div class="menu-item"><span>Grilled Shawarma</span><span>AED 10.00</span></div>
+    <div class="menu-item"><span>Shawarma Poratta</span><span>AED 8.00</span></div>
+    <div class="menu-item"><span>Shawarma (Normal / Spicy)</span><span>AED 6.00</span></div>
+
+  </div>
+</section>
+<!-- GRILLED CHICKEN -->
+<section class="menu-section">
+  <h2 class="menu-title">GRILL CHICKEN</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>Half Grilled Chicken (Normal / Spicy)</span>
+      <span>AED 16.00</span>
+    </div>
+    <div class="menu-item">
+      <span>Full Grilled Chicken (Normal / Spicy)</span>
+      <span>AED 26.00</span>
+    </div>
+    <div class="menu-note">
+      <strong>Served with:</strong> Hummus, Khubuz, Garlic, Salad, Soup
+    </div>
+    <div class="menu-item">
+      <span>Half Grilled Chicken Only (No Sides)</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>Full Grilled Chicken Only (No Sides)</span>
+      <span>AED 20.00</span>
+    </div>
+  </div>
+</section>
+<!-- BIRYANI SPECIAL -->
+<section class="menu-section">
+  <h2 class="menu-title">BIRYANI SPECIAL</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>HYDERABADI CHICKEN BIRYANI</span>
+      <span>AED 14.00</span>
+    </div>
+    <div class="menu-item">
+      <span>DUM BIRYANI (CHICKEN / MUTTON)</span>
+      <span>AED 13.00 / 18.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN FRY BIRYANI</span>
+      <span>AED 15.00</span>
+    </div>
+    <div class="menu-item">
+      <span>PRAWNS BIRYANI</span>
+      <span>AED 30.00</span>
+    </div>
+    <div class="menu-item">
+      <span>GHEE RICE COMBO (CHICKEN / BEEF)</span>
+      <span>AED 12.00 / 15.00</span>
+    </div>
+  </div>
+</section>
+<!-- FRIED RICE & NOODLES -->
+<section class="menu-section">
+  <h2 class="menu-title">FRIED RICE</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><span>CHICKEN FRIED RICE</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>BEEF FRIED RICE</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>MIXED FRIED RICE</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>PRAWNS FRIED RICE</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>EGG FRIED RICE</span><span>AED 12.00</span></div>
+    <div class="menu-item"><span>VEGETABLE FRIED RICE</span><span>AED 12.00</span></div>
+    <div class="menu-item"><span>SCHEZWAN CHICKEN FRIED RICE</span><span>AED 17.00</span></div>
+  </div>
+
+  <h2 class="menu-title">NOODLES</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><span>CHICKEN NOODLES</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>BEEF NOODLES</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>MIX NOODLES</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>PRAWNS NOODLES</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>EGG NOODLES</span><span>AED 12.00</span></div>
+    <div class="menu-item"><span>VEGETABLE NOODLES</span><span>AED 12.00</span></div>
+    <div class="menu-item"><span>SCHEZWAN CHICKEN NOODLES</span><span>AED 17.00</span></div>
+  </div>
+</section>
+<!-- CHINESE GRAVY -->
+<section class="menu-section">
+  <h2 class="menu-title">CHINESE GRAVY</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><span>CHICKEN MANCHURIAN</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>GINGER CHICKEN</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>CHICKEN WINGS CHILLI</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>DRAGON CHICKEN</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>CHI. LOLLIPOP GRAVY</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>CHICKEN 65 GRAVY</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>CHICKEN CHILLI</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>GARLIC CHICKEN</span><span>AED 17.00</span></div>
+    <div class="menu-item"><span>BUTTER CHICKEN</span><span>AED 20.00</span></div>
+    <div class="menu-item"><span>BEEF MANCHURIAN</span><span>AED 17.00</span></div>
+    <div class="menu-item"><span>BEEF CHILLI</span><span>AED 17.00</span></div>
+    <div class="menu-item"><span>PRAWNS MANCHURIAN</span><span>AED 17.00</span></div>
+    <div class="menu-item"><span>PANEER CHILLI</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>CHILLI GOBI</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>GOBI MANCHURIAN</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>PALAK PANEER</span><span>AED 16.00</span></div>
+  </div>
+</section>
+<!-- INDIAN & TANDOOR -->
+<section class="menu-section">
+  <h2 class="menu-title">INDIAN & TANDOOR</h2>
+  
+  <h3>TANDOORI VEG. SPECIAL</h3>
+  <div class="menu-grid">
+    <div class="menu-item"><span>GOBI TIKKA</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>ALOO TIKKA</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>PANEER TIKKA</span><span>AED 17.00</span></div>
+  </div>
+
+  <h3>TANDOORI NON VEG. SPECIAL</h3>
+  <div class="menu-grid">
+    <div class="menu-item"><span>CHICKEN MALAI TIKKA</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>TANDOORI TIKKA</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>CHI. HARIYALI TIKKA</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>RASHMI KABAB</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>CHICKEN KALI MIRCH</span><span>AED 20.00</span></div>
+    <div class="menu-item"><span>TANDOORI CHICKEN (QUARTER / HALF / FULL)</span><span>AED 10 / 20 / 35</span></div>
+  </div>
+
+  <h3>INDIAN BREADS (not available now)</h3>
+  <div class="menu-grid">
+    <div class="menu-item"><span>ROTI</span><span>AED 1.50</span></div>
+    <div class="menu-item"><span>BUTTER ROTI</span><span>AED 2.50</span></div>
+    <div class="menu-item"><span>GARLIC ROTI</span><span>AED 4.00</span></div>
+    <div class="menu-item"><span>NAAN</span><span>AED 2.00</span></div>
+    <div class="menu-item"><span>BUTTER NAAN</span><span>AED 3.00</span></div>
+    <div class="menu-item"><span>GARLIC NAAN</span><span>AED 3.00</span></div>
+  </div>
+</section>
+<!-- CURRY ITEMS -->
+<section class="menu-section">
+  <h2 class="menu-title">CURRY ITEMS</h2>
+
+  <h3>CHICKEN</h3>
+  <div class="menu-grid">
+    <div class="menu-item"><span>CHICKEN CURRY</span><span>AED 14.00</span></div>
+    <div class="menu-item"><span>CHI. DRY FRY</span><span>AED 12.00</span></div>
+    <div class="menu-item"><span>CHI. KADAI</span><span>AED 20.00</span></div>
+    <div class="menu-item"><span>CHI. CHUKKA</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>CHI. TIKKA MASALA</span><span>AED 19.00</span></div>
+    <div class="menu-item"><span>CHICKEN KORMA</span><span>AED 18.00</span></div>
+  </div>
+
+  <h3>BEEF</h3>
+  <div class="menu-grid">
+    <div class="menu-item"><span>BEEF DRY FRY</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>BEEF ROAST</span><span>AED 18.00</span></div>
+    <div class="menu-item"><span>BEEF CURRY</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>BEEF 65</span><span>AED 18.00</span></div>
+  </div>
+
+  <h3>MUTTON</h3>
+  <div class="menu-grid">
+    <div class="menu-item"><span>MUTTON KADAI</span><span>AED 24.00</span></div>
+    <div class="menu-item"><span>MUTTON MASALA</span><span>AED 24.00</span></div>
+    <div class="menu-item"><span>MUTTON TAWA MASALA</span><span>AED 24.00</span></div>
+    <div class="menu-item"><span>MUTTON CURRY</span><span>AED 24.00</span></div>
+  </div>
+
+  <h3>VEGETABLE</h3>
+  <div class="menu-grid">
+    <div class="menu-item"><span>ALOO GOBI</span><span>AED 14.00</span></div>
+    <div class="menu-item"><span>MIX VEGETABLE</span><span>AED 12.00</span></div>
+    <div class="menu-item"><span>PANEER TIKKA MASALA</span><span>AED 17.00</span></div>
+    <div class="menu-item"><span>PANEER KADAI</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>BINDI MASALA</span><span>AED 14.00</span></div>
+    <div class="menu-item"><span>DAL FRY / TADKA</span><span>AED 13.00</span></div>
+  </div>
+</section>
+<!-- HEALTHY SALADS -->
+<section class="menu-section">
+  <h2 class="menu-title">HEALTHY SALADS</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><span>FATHOUSH SALAD</span><span>AED 12.00</span></div>
+    <div class="menu-item"><span>TABBOULEH SALAD</span><span>AED 12.00</span></div>
+    <div class="menu-item"><span>ARABIC SALAD</span><span>AED 13.00</span></div>
+    <div class="menu-item"><span>GREEN SALAD</span><span>AED 10.00</span></div>
+    <div class="menu-item"><span>SAFFRON SP. SALAD</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>CORN SALAD</span><span>AED 12.00</span></div>
+    <div class="menu-item"><span>AVOCADO SALAD</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>CHICKEN CAESAR SALAD</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>CHICKEN ZINGER SALAD</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>GREEK SALAD</span><span>AED 15.00</span></div>
+  </div>
+</section>
+<!-- SOUP SPECIAL -->
+<section class="menu-section">
+  <h2 class="menu-title">SOUP SPECIAL</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><span>HOT N SOUR SOUP (VEG./CHICKEN)</span><span>AED 11 / 13</span></div>
+    <div class="menu-item"><span>SWEET CORN SOUP (VEG./CHICKEN)</span><span>AED 11 / 13</span></div>
+    <div class="menu-item"><span>SEAFOOD SOUP</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>CLEAR SOUP (VEG./CHICKEN)</span><span>AED 10 / 12</span></div>
+    <div class="menu-item"><span>CHICKEN SOUP</span><span>AED 10.00</span></div>
+    <div class="menu-item"><span>MANCHOW SOUP (VEG./CHICKEN)</span><span>AED 12 / 14</span></div>
+    <div class="menu-item"><span>NOODLES SOUP (VEG./CHICKEN)</span><span>AED 12 / 14</span></div>
+    <div class="menu-item"><span>CREAM OF MUSHROOM</span><span>AED 13.00</span></div>
+    <div class="menu-item"><span>TOM YUM SOUP</span><span>AED 14.00</span></div>
+    <div class="menu-item"><span>CHICKEN CREAM SOUP</span><span>AED 12.00</span></div>
+  </div>
+</section>
+<!-- PASTA SPECIAL -->
+<section class="menu-section">
+  <h2 class="menu-title">PASTA SPECIAL</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><span>FRIED VEG MOMOS</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>ALFREDO PASTA (CHICKEN / BEEF)</span><span>AED 22 / 24</span></div>
+    <div class="menu-item"><span>PINOY SPAGHETTI PASTA</span><span>AED 22.00</span></div>
+    <div class="menu-item"><span>MACARONI PASTA (CHICKEN / BEEF)</span><span>AED 15 / 17</span></div>
+    <div class="menu-item"><span>PENNE PINK SAUCE PASTA</span><span>AED 19.00</span></div>
+    <div class="menu-item"><span>CREAMY WHITE PENNE</span><span>AED 19.00</span></div>
+    <div class="menu-item"><span>PENNE SEAFOOD PASTA</span><span>AED 20.00</span></div>
+  </div>
+</section>
+<!-- MOMOS SPECIAL -->
+<section class="menu-section">
+  <h2 class="menu-title">MOMOS SPECIAL</h2>
+  <div class="menu-grid">
+    <div class="menu-item"><span>STEAM MOMO CHICKEN (6 PCS)</span><span>AED 15.00</span></div>
+    <div class="menu-item"><span>STEAM MOMO VEG</span><span>AED 14.00</span></div>
+    <div class="menu-item"><span>FRIED MOMO CHICKEN</span><span>AED 16.00</span></div>
+    <div class="menu-item"><span>FRIED MOMO VEG</span><span>AED 16.00</span></div>
+  </div>
+</section>
+<!-- CHINESE COMBOS -->
+<section class="menu-section">
+  <h2 class="menu-title">CHINESE COMBOS</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>FRIED RICE COMBO<br><small>CHI./VEG. FRIED RICE + CHICKEN MANCHURIAN</small></span>
+      <span>AED 20.00</span>
+    </div>
+    <div class="menu-item">
+      <span>NOODLES COMBO<br><small>CHI./VEG. NOODLES + CHICKEN CHILLI</small></span>
+      <span>AED 20.00</span>
+    </div>
+    <div class="menu-item">
+      <span>SCHEZWAN F. RICE COMBO<br><small>SCHEZWAN CHICKEN FRIED RICE + CHICKEN MANCHURIAN</small></span>
+      <span>AED 22.00</span>
+    </div>
+    <div class="menu-item">
+      <span>SCHEZWAN NOODLES COMBO<br><small>SCHEZWAN VEG. NOODLES + CHICKEN CHILLI</small></span>
+      <span>AED 22.00</span>
+    </div>
+  </div>
+</section>
+<!-- BROASTED -->
+<section class="menu-section">
+  <h2 class="menu-title">BROASTED</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>SNACK MEAL<br><small>2 Pcs Chicken + Fries + Bun + Garlic</small></span>
+      <span>AED 13.00</span>
+    </div>
+    <div class="menu-item">
+      <span>DINNER MEAL<br><small>3 Pcs Chicken + Fries + 2 Buns + Garlic + Cola Can</small></span>
+      <span>AED 19.00</span>
+    </div>
+    <div class="menu-item">
+      <span>JUMBO MEAL<br><small>5 Pcs Chicken + Fries + 2 Buns + Garlic + 2 Cola Can</small></span>
+      <span>AED 30.00</span>
+    </div>
+    <div class="menu-item">
+      <span>FAMILY MEAL<br><small>9 Pcs Chicken + Fries + 4 Buns + Garlic + Coleslaw + Large Cola</small></span>
+      <span>AED 58.00</span>
+    </div>
+    <div class="menu-item">
+      <span>PARTY MEAL<br><small>15 Pcs Chicken + Fries + 8 Buns + Garlic + Coleslaw + Large Cola</small></span>
+      <span>AED 99.00</span>
+    </div>
+    <div class="menu-item">
+      <span>STRIPS MEAL<br><small>5 Pcs Strips + Fries + Bun + Cola + Garlic</small></span>
+      <span>AED 20.00</span>
+    </div>
+  </div>
+</section>
+<!-- WRAP SANDWICH -->
+<section class="menu-section">
+  <h2 class="menu-title">WRAP SANDWICH</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>NUGGETS WRAP</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>ZINKER WRAP</span>
+      <span>AED 14.00</span>
+    </div>
+    <div class="menu-item">
+      <span>TWISTER WRAP</span>
+      <span>AED 14.00</span>
+    </div>
+    <div class="menu-item">
+      <span>TIKKA WRAP</span>
+      <span>AED 13.00</span>
+    </div>
+    <div class="menu-item">
+      <span>FALAFEL WRAP</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>SEAFOOD WRAP</span>
+      <span>AED 15.00</span>
+    </div>
+    <div class="menu-item">
+      <span>EGG WRAP</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>MATHAFI WRAP</span>
+      <span>AED 14.00</span>
+    </div>
+  </div>
+</section>
+<!-- STARTERS -->
+<section class="menu-section">
+  <h2 class="menu-title">STARTERS</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>CHICKEN GARLIC WINGS</span>
+      <span>AED 22.00</span>
+    </div>
+    <div class="menu-item">
+      <span>HONEY CHICKEN</span>
+      <span>AED 20.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN LOLLIPOP (6 PCS)</span>
+      <span>AED 15.00</span>
+    </div>
+  </div>
+</section>
+<!-- BURGER SPOT -->
+<section class="menu-section">
+  <h2 class="menu-title">BURGER SPOT</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>MIGHTY ZINKER BURGER</span>
+      <span>AED 18.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN/BEEF DOUBLE BURGER</span>
+      <span>AED 14.00</span>
+    </div>
+    <div class="menu-item">
+      <span>ZINKER BURGER</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>KHALEEJ BURGER</span>
+      <span>AED 11.00</span>
+    </div>
+    <div class="menu-item">
+      <span>FILLET BURGER</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHI. TIKKA BURGER</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHI./BEEF BURGER</span>
+      <span>AED without fries7.00 / with fries 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>VEG. BURGER</span>
+      <span>AED 9.00</span>
+    </div>
+    <div class="menu-item">
+      <span>NUGGETS BURGER</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>KENTUCKY BURGER</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>JUMBO PRAWNS BURGER</span>
+      <span>AED 13.00</span>
+    </div>
+    <div class="menu-item">
+      <span>FRESH CHI. BURGER</span>
+      <span>AED 18.00</span>
+    </div>
+    <div class="menu-item">
+      <span>FRESH BEEF BURGER</span>
+      <span>AED 18.00</span>
+    </div>
+    <div class="menu-item">
+      <span>DYNAMITE BURGER</span>
+      <span>AED 18.00</span>
+    </div>
+  </div>
+</section>
+<!-- COMBO -->
+<section class="menu-section">
+  <h2 class="menu-title">COMBO</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>KABAB COMBO (CHI./MEAT)</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>JUMBO PRAWNS COMBO</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN TIKKA COMBO</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>VEGETABLE COMBO</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>ZINKER PRAWNS COMBO</span>
+      <span>AED 13.00</span>
+    </div>
+    <div class="menu-item">
+      <span>MATHAFI COMBO</span>
+      <span>AED 14.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN CAJUN COMBO</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>BUTTERFLY COMBO</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>ZINKER COMBO</span>
+      <span>AED 12.00</span>
+    </div>
+  </div>
+</section>
+<!-- PORATTA -->
+<section class="menu-section">
+  <h2 class="menu-title">PORATTA</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>OMELETTE PORATTA</span>
+      <span>AED 4.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHILLI PORATTA</span>
+      <span>AED 5.00</span>
+    </div>
+    <div class="menu-item">
+      <span>OMAN CHIPS PORATTA</span>
+      <span>AED 4.00</span>
+    </div>
+    <div class="menu-item">
+      <span>HOTDOG PORATTA</span>
+      <span>AED 5.00</span>
+    </div>
+    <div class="menu-item">
+      <span>PRAWNS PORATTA</span>
+      <span>AED 7.00</span>
+    </div>
+    <div class="menu-item">
+      <span>TIKKA PORATTA</span>
+      <span>AED 6.00</span>
+    </div>
+    <div class="menu-item">
+      <span>NUGGETS PORATTA</span>
+      <span>AED 7.00</span>
+    </div>
+    <div class="menu-item">
+      <span>FRANCISCO PORATTA</span>
+      <span>AED 7.00</span>
+    </div>
+    <div class="menu-item">
+      <span>SHAWARMA PORATTA</span>
+      <span>AED 8.00</span>
+    </div>
+    <div class="menu-item">
+      <span>ZINKER PORATTA</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>MATHAFI PORATTA</span>
+      <span>AED 12.00</span>
+    </div>
+  </div>
+</section>
+<!-- VALUE MEALS -->
+<section class="menu-section">
+  <h2 class="menu-title">VALUE MEALS</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>ZINKER PARATHA + AVOCADO JUICE</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>NORMAL SHAWARMA + BANANA JUICE</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN/BEEF BURGER + WATERMELON JUICE</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>GRILL CHICKEN (HALF) + PEPSI CAN</span>
+      <span>AED 17.00</span>
+    </div>
+    <div class="menu-item">
+      <span>GRILLED SHAWARMA + LEMON MINT JUICE</span>
+      <span>AED 13.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN CHARCOAL (quarter) + SALAD + KHUBZ + 7 UP</span>
+      <span>AED 17.00</span>
+    </div>
+  </div>
+</section>
+<!-- CLUB SANDWICH -->
+<section class="menu-section">
+  <h2 class="menu-title">CLUB SANDWICH</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>SEAFOOD CLUB</span>
+      <span>AED 15.00</span>
+    </div>
+    <div class="menu-item">
+      <span>MEGA CLUB</span>
+      <span>AED 14.00</span>
+    </div>
+    <div class="menu-item">
+      <span>KABAB MIX CLUB</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CLUB SPECIAL</span>
+      <span>AED 13.00</span>
+    </div>
+    <div class="menu-item">
+      <span>LULU CLUB</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>VEGETABLE CLUB</span>
+      <span>AED 14.00</span>
+    </div>
+    <div class="menu-item">
+      <span>ZINKER CLUB</span>
+      <span>AED 14.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN / BEEF CLUB</span>
+      <span>AED 12.00</span>
+    </div>
+    <div class="menu-item">
+      <span>EGG BROWN CLUB</span>
+      <span>AED 14.00</span>
+    </div>
+    <div class="menu-item">
+      <span>FAMILY CLUB</span>
+      <span>AED 45.00</span>
+    </div>
+  </div>
+</section>
+<!-- LOADED FRIES -->
+<section class="menu-section">
+  <h2 class="menu-title">LOADED FRIES</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>CRINKLE LOADED FRIES</span>
+      <span>AED 18.00</span>
+    </div>
+    <div class="menu-item">
+      <span>SHRIMPS LOADED FRIES</span>
+      <span>AED 20.00</span>
+    </div>
+    <div class="menu-item">
+      <span>ZINGER LOADED FRIES</span>
+      <span>AED 18.00</span>
+    </div>
+  </div>
+</section>
+<!-- DYNAMITE SPECIAL -->
+<section class="menu-section">
+  <h2 class="menu-title">DYNAMITE SPECIAL</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>DYNAMITE SHRIMPS (CHEESE &amp; SAUCE)</span>
+      <span>AED 22.00</span>
+    </div>
+    <div class="menu-item">
+      <span>ZINGER CHETOS WITH CHEESE &amp; SAUCE</span>
+      <span>AED 21.00</span>
+    </div>
+    <div class="menu-item">
+      <span>DYNAMITE NUGGETS CHEESE</span>
+      <span>AED 18.00</span>
+    </div>
+    <div class="menu-item">
+      <span>FRENCH FRIES WITH CHEESE &amp; SAUCE</span>
+      <span>AED 16.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CRINKLE FRIES CRISPY CHI. W. CHEESE CHEETOS</span>
+      <span>AED 22.00</span>
+    </div>
+    <div class="menu-item">
+      <span>SPICY CHICKEN WEDGES WITH SAUCE</span>
+      <span>AED 21.00</span>
+    </div>
+    <div class="menu-item">
+      <span>EXTRA SAUCE</span>
+      <span>AED 3.00</span>
+    </div>
+    <div class="menu-item">
+      <span>DYNAMITE CHICKEN WITH SAUCE</span>
+      <span>AED 18.00</span>
+    </div>
+  </div>
+</section>
+<!-- PLATE ITEMS -->
+<section class="menu-section">
+  <h2 class="menu-title">PLATE ITEMS</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>ONION RINGS</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN POPCORN</span>
+      <span>AED 10 / 15</span>
+    </div>
+    <div class="menu-item">
+      <span>MIX POTATO</span>
+      <span>AED 10 / 15</span>
+    </div>
+    <div class="menu-item">
+      <span>POTATO WEDGES</span>
+      <span>AED 10 / 15</span>
+    </div>
+    <div class="menu-item">
+      <span>FRENCH FRIES</span>
+      <span>AED 6 / 10</span>
+    </div>
+    <div class="menu-item">
+      <span>CRINKLE FRIES</span>
+      <span>AED 7 / 11</span>
+    </div>
+    <div class="menu-item">
+      <span>MOZZARELLA STICK</span>
+      <span>AED 15.00</span>
+    </div>
+    <div class="menu-item">
+      <span>JUMBO PRAWNS PLATE</span>
+      <span>AED 20.00</span>
+    </div>
+    <div class="menu-item">
+      <span>BUTTERFLY PRAWNS</span>
+      <span>AED 20.00</span>
+    </div>
+    <div class="menu-item">
+      <span>POTATO RINGS</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN NUGGETS</span>
+      <span>AED 18.00</span>
+    </div>
+  </div>
+</section>
+<!-- SLICE SPECIAL -->
+<section class="menu-section">
+  <h2 class="menu-title">SLICE SPECIAL</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <span>SEMI HOTDOG</span>
+      <span>AED 6.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHEESE HONEY SLICE</span>
+      <span>AED 4.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN SLICE</span>
+      <span>AED 5.00</span>
+    </div>
+    <div class="menu-item">
+      <span>CHICKEN PARATHA</span>
+      <span>AED 5.00</span>
+    </div>
+    <div class="menu-item">
+      <span>AVOCADO EGG SLICE</span>
+      <span>AED 10.00</span>
+    </div>
+    <div class="menu-item">
+      <span>KRAFT SLICE</span>
+      <span>AED 4.00</span>
+    </div>
+    <div class="menu-item">
+      <span>EGG CHEESE SLICE</span>
+      <span>AED 5.00</span>
+    </div>
+    <div class="menu-item">
+      <span>OMELETTE SLICE</span>
+      <span>AED 5.00</span>
+    </div>
+  </div>
+  <a href="index.html">Home</a> |
+</a>
+   <!-- Footer -->
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2025 DALAT SAFFRON CAFETERIA. All Rights Reserved.</p>
+    <div class="footer-links">
+      </a>
+    <p style="font-size: 12px;">
+      Developed by 
+      <a href="https://wa.me/971526487867" target="_blank" rel="noopener" class="footer-dev-link">
+        Nasim PT
+      </a>
+    </p>
+  </div>
+</footer>
+  
